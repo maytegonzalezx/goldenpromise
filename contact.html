@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Golden Promise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-banner">
+            <h1>Golden Promise</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rings.html">Rings</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="brand-history">
+            <div class="history-content">
+                <img src="founder.jpeg" alt="Our Founder" class="founder-img">
+                <div class="history-text">
+                    <h2>Our Heritage</h2>
+                    <p>Golden Promise began decades ago as a small family workshop. For generations, we have preserved the art of handcrafted jewelry, passing down secrets of design and smithing from father to son. Every ring we create today still carries the soul of our founder's original vision: timeless elegance made by hand.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-info">
+            <div class="info-box">
+                <h3>Get in Touch</h3>
+                <p><strong>Phone:</strong> +34 600 000 000</p>
+                <p><strong>Email:</strong> boutique@goldenpromise.com</p>
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <h3>Request a Custom Design</h3>
+            <form id="custom-ring-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="metal">Choose your Metal:</label>
+                <select id="metal" name="metal">
+                    <option value="yellow-gold">18k Yellow Gold</option>
+                    <option value="white-gold">18k White Gold</option>
+                    <option value="platinum">Platinum</option>
+                </select>
+
+                <label for="size">Ring Size:</label>
+                <input type="number" id="size" name="size" min="4" max="15" placeholder="Size (4-15)">
+
+                <label for="message">Message / Details:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <button type="submit" class="submit-btn">Send Inquiry</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
